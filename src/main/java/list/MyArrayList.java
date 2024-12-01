@@ -13,8 +13,17 @@ import java.util.Comparator;
  * @author Alexey Tsvetkov
  */
 public class MyArrayList<T> {
+    /**
+     * Количество элементов в списке.
+     */
     private int size;
+    /**
+     * Размер встроенного массива при использовании конструктора по умолчанию.
+     */
     private static final int default_size = 10;
+    /**
+     * Массив, хранящий элементы коллекции.
+     */
     private Object[] elements;
 
     /**
